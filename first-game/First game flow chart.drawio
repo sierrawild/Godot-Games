@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2024-09-10T12:04:17.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="IAvIueJN4F6yXSPvMY8D" version="21.6.6" type="device">
+  <diagram name="Page-1" id="43lfBjkNA8JIR5FgOazU">
+    <mxGraphModel dx="1941" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xffZb0nHlihTSvSCBlnI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xffZb0nHlihTSvSCBlnI-1" target="xffZb0nHlihTSvSCBlnI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-1" value="Detect arrow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xffZb0nHlihTSvSCBlnI-3" target="xffZb0nHlihTSvSCBlnI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-3" value="Move player" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#C3ABD0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xffZb0nHlihTSvSCBlnI-11" target="xffZb0nHlihTSvSCBlnI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-15" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#97D077;shadow=0;strokeColor=#97D077;" vertex="1" connectable="0" parent="xffZb0nHlihTSvSCBlnI-14">
+          <mxGeometry x="-0.1036" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-11" value="Hit the coin" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6666FF;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xffZb0nHlihTSvSCBlnI-13" value="Destroy the coin and grow the player" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dsgs8krajbih1"]
+
+[ext_resource type="Script" uid="uid://j708dqbe42p0" path="res://main.gd" id="1_glv2v"]
+
+[node name="Main" type="Node2D" unique_id=2055526601]
+script = ExtResource("1_glv2v")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=441467889]
+offset_right = 1103.0
+offset_bottom = 1937.0
+color = Color(0.72156864, 1, 1, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=306898289]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1572270546]
+offset_right = 324.0
+offset_bottom = 153.0
