@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ilb1r1n2eah3"]
+
+[ext_resource type="PackedScene" uid="uid://dofbjoqik4n02" path="res://player.tscn" id="1_ig7tw"]
+
+[sub_resource type="Curve2D" id="Curve2D_0xm2m"]
+
+[node name="Main" type="Node" unique_id=1007882733]
+
+[node name="Player" parent="." unique_id=1449812932 instance=ExtResource("1_ig7tw")]
+
+[node name="MobTimer" type="Timer" parent="." unique_id=195522331]
+wait_time = 0.5
+
+[node name="ScoreTimer" type="Timer" parent="." unique_id=2138184664]
+
+[node name="StartTimer" type="Timer" parent="." unique_id=712984099]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="." unique_id=788642568]
+position = Vector2(240, 450)
+
+[node name="Path2D" type="Path2D" parent="." unique_id=724345810]
+curve = SubResource("Curve2D_0xm2m")
