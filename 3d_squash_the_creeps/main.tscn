@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://2wap0283yk0r"]
 
+[ext_resource type="PackedScene" uid="uid://ceuu150fmggvr" path="res://player.tscn" id="1_ig7tw"]
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_7dm0k"]
 size = Vector3(60, 2, 60)
 
@@ -18,5 +20,18 @@ shape = SubResource("BoxShape3D_7dm0k")
 mesh = SubResource("BoxMesh_ig7tw")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=360788832]
-transform = Transform3D(1, 0, 0, 0, 0.49999997, 0.86602545, 0, -0.86602545, 0.49999997, 0, 10, 0)
+transform = Transform3D(-0.6297601, 0.26095206, -0.73164624, -0.10788505, 0.9033739, 0.4150622, 0.7692614, 0.34032327, -0.5407559, 0, 10, 0)
+light_energy = 2.0
 shadow_enabled = true
+shadow_blur = 4.437
+
+[node name="Player" parent="." unique_id=462511016 instance=ExtResource("1_ig7tw")]
+
+[node name="CameraPivot" type="Marker3D" parent="." unique_id=878726692]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot" unique_id=94045512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 19)
+projection = 1
+size = 19.0
+far = 100.0
