@@ -1,7 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771791887
+::res://::1771872209
 icon.webp::CompressedTexture2D::27118964165343846::1771714342::1771714385::1::::<><><>0<>0<>d1498e266395186d04e973f787f3596d<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
-main.tscn::PackedScene::1940543232055977835::1771765737::0::1::::<><><>0<>0<><>::uid://ceuu150fmggvr::::res://player.tscn
+main.gd::GDScript::4982184209173222137::1771798950::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::1940543232055977835::1771798950::0::1::::<><><>0<>0<><>::uid://cc8n3086pvl18::::res://main.gd<>uid://ceuu150fmggvr::::res://player.tscn<>uid://defdm2qdva75q::::res://mob.tscn
+mob.gd::GDScript::6924879768536141194::1771798544::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mob.tscn::PackedScene::7450544337918621628::1771798544::0::1::::<><><>0<>0<><>::uid://bicorb7we351t::::res://art/mob.glb<>uid://c5wp01kn08qxe::::res://mob.gd
 player.gd::GDScript::5693221398705431802::1771764527::0::1::::<>CharacterBody3D<><>0<>0<><>::
 player.tscn::PackedScene::5096146682080455107::1771764527::0::1::::<><><>0<>0<><>::uid://d0ypm0v45pwdv::::res://art/player.glb<>uid://cnd3r3qyfy5so::::res://player.gd
 ::res://art/::1771714385
