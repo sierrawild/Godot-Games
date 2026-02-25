@@ -46,6 +46,7 @@ shadow_enabled = true
 shadow_blur = 4.437
 
 [node name="Player" parent="." unique_id=462511016 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5689403, 0)
 
 [node name="CameraPivot" type="Marker3D" parent="." unique_id=878726692]
 transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
