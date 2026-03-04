@@ -24,6 +24,8 @@ _data = {
 }
 point_count = 4
 
+[sub_resource type="Theme" id="Theme_h2yge"]
+
 [node name="Main" type="Node" unique_id=484907831]
 script = ExtResource("1_h2yge")
 mob_scene = ExtResource("2_1bvp3")
@@ -86,6 +88,20 @@ transform = Transform3D(0.003710337, 0, -0.99999315, 0, 1, 0, 0.99999315, 0, 0.0
 [node name="MobTimer" type="Timer" parent="." unique_id=1913336426]
 wait_time = 0.5
 autostart = true
+
+[node name="UserInterface" type="Control" parent="." unique_id=595614758]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme = SubResource("Theme_h2yge")
+
+[node name="ScoreLabel" type="Label" parent="UserInterface" unique_id=803966237]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.1466411, 0.1466411, 0.1466411, 1)
+text = "Score: 0"
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
